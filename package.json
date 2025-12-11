@@ -4,8 +4,8 @@
 	"private": true,
 	"license": "MIT",
 	"scripts": {
-		"deploy:workers": "wrangler deploy",
-		"deploy": "vercel --prod",
+		"deploy:workers": "vercel --prod",
+		"deploy": "wrangler deploy",
 		"dev:workers": "wrangler dev src/_worker.js --live-reload",
 		"dev": "vercel dev",
 		"build": "node esbuild.js",
